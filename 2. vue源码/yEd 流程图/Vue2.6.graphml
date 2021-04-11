@@ -618,7 +618,7 @@ vm 是Vue实例，用于避免Vue实例对象被观测<y:LabelModel><y:SmartNode
     <node id="n32">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.sbgn.UnitOfInformation">
-          <y:Geometry height="85.80000000000001" width="271.1999999999998" x="1907.988771295119" y="357.8706751592356"/>
+          <y:Geometry height="85.80000000000001" width="271.1999999999998" x="1881.1952528276283" y="355.87244162477157"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="center" visible="true" width="4.0" x="133.5999999999999" y="40.89999999999998">
@@ -14493,11 +14493,11 @@ vnode.tag 会以‘vue-component’ 开头。
           <y:Path sx="-78.57239182237618" sy="4.709107997238334" tx="0.0" ty="0.0">
             <y:Point x="3823.455043850268" y="2625.019198016649"/>
             <y:Point x="4606.66654276522" y="2624.175995896685"/>
-            <y:Point x="4983.592832758438" y="2281.8181984670296"/>
+            <y:Point x="4983.240799874259" y="2285.690560193"/>
           </y:Path>
           <y:LineStyle color="#00BBFF" type="dashed" width="1.0"/>
           <y:Arrows source="white_circle" target="white_circle"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="1093.3222567994035" y="-206.05511253581426">
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="1092.9448068321599" y="-203.12431225153523">
             <y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
