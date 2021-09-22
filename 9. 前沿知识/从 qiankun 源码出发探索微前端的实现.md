@@ -77,7 +77,7 @@ qiankun 对于微应用的管理其实是基于 **single-spa**（另一个微前
 
 css 隔离怎么实现的呢，qiankun 里面提供一个策略是——在微应用的外部套一层 shadow DOM。这时微应用就作为一个隐藏的、独立的 DOM 树挂载在 html 上，不会受到主应用 css 的污染。
 
-js 隔离怎么实现呢，qiankun 会给微应用创建一个封闭的 js 沙箱，用以执行它的 js 脚本，进而实现 js 的隔离。首先，qiankun 会对 window 进行深复制，然后得到一个克隆对象 global，再然后通过 proxy 代理去拦截微应用对于 window 的操作，将这些操作全部指向到 global 上。具体怎么拦截呢，其实是将微应用的 js 脚本都套在一个立即执行函数上面：
+js 隔离怎么实现呢，qiankun 会给微应用创建一个封闭的 js 沙箱，用以执行它的 js 脚本，进而实现 js 的隔离。**首先，qiankun 会对 window 进行深复制，然后得到一个克隆对象 global，再然后通过 proxy 代理去拦截微应用对于 window 的操作，将这些操作全部指向到 global 上。具体怎么拦截呢，其实是将微应用的 js 脚本都套在一个立即执行函数上面：**
 ```js
 // 创建微应用的 js 沙箱
 let proxy = new ProxySandbox(appName);
